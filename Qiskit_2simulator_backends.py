@@ -10,7 +10,7 @@ from qiskit.tools.visualization import plot_histogram #get plot_histogram
 
 #Circuit manipulation
 circuit = QuantumCircuit(3,3)  #Create circuit with 1 qubit and 1 bit
-circuit.x(0)                   #Give the qubit X gate    (0) means 1st qubit (1) means 2nd qubit
+ circuit.x(0)                   #Give the qubit X gate    (0) means 1st qubit (1) means 2nd qubit
 
 #Show the result in state vector. 
 simulator = Aer.get_backend("statevector_simulator")          
